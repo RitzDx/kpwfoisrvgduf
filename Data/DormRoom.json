@@ -1,0 +1,38 @@
+{
+  "Room": {
+    "RoomId": 1,
+    "Name": "^DormRoom",
+    "Description": "Your not private dorm",
+    "ImageName": "DormRoom.png",
+    "CreatorPlayerId": 7928150,
+    "State": 0,
+    "Accessibility": 2,
+    "SupportsLevelVoting": false,
+    "IsAGRoom": true,
+    "CloningAllowed": false,
+    "SupportsScreens": true,
+    "SupportsWalkVR": true,
+    "SupportsTeleportVR": true
+  },
+  "Scenes": [
+    {
+      "RoomSceneId": 1,
+      "RoomId": 1,
+      "RoomSceneLocationId": "76d98498-60a1-430c-ab76-b54a29b7a163",
+      "Name": "DormRoom",
+      "IsSandbox": true,
+      "DataBlobName": "",
+      "MaxPlayers": 4,
+      "CanMatchmakeInto": true,
+      "DataModifiedAt": "2018-09-28T10:54:02.6204035-10:35"
+    }
+  ],
+  "CoOwners": [],
+  "InvitedCoOwners": [],
+  "Hosts": [],
+  "InvitedHosts": [],
+  "CheerCount": 0,
+  "FavoriteCount": 0,
+  "VisitCount": 0,
+  "Tags": []
+}
