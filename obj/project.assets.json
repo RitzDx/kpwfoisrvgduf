@@ -78,8 +78,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cryptic\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\CrypticBren\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -87,15 +86,11 @@
       "projectUniqueName": "C:\\CrypticSource\\CrypticSource.csproj",
       "projectName": "CrypticSource",
       "projectPath": "C:\\CrypticSource\\CrypticSource.csproj",
-      "packagesPath": "C:\\Users\\Cryptic\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\CrypticBren\\.nuget\\packages\\",
       "outputPath": "C:\\CrypticSource\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Cryptic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\CrypticBren\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -103,6 +98,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://www.myget.org/F/discord-net/api/v3/index.json": {}
       },
@@ -155,7 +151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

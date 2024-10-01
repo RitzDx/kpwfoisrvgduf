@@ -2,6 +2,7 @@ using CrypticSource.Data;
 using CrypticSource.JsonClasses;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Collections.Concurrent;
 using System.Collections.Specialized;
 using System.Web;
 using static CrypticSource.WebSocket.WebSocket;
@@ -188,6 +189,6 @@ namespace CrypticSource.Controllers
           to get it in here you do UserIds[HttpContext.Connection.RemoteIpAddress.ToString()]
           to get it in the Notification class you do UserIds[Context.UserEndPoint.Address.ToString()]
           */
-        public static SortedDictionary<string, ulong> UserIds = new SortedDictionary<string, ulong>();
+        public static ConcurrentDictionary<string, ulong> UserIds = new ConcurrentDictionary<string, ulong>();
     }
 }
