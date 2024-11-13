@@ -1,4 +1,4 @@
-﻿using CrypticSource.JsonClasses;
+using CrypticSource.JsonClasses;
 using Newtonsoft.Json;
 
 namespace CrypticSource.Data
@@ -49,7 +49,7 @@ namespace CrypticSource.Data
                 JuniorProfile = false,
                 ForceJuniorImages = false,
                 PendingJunior = false,
-                HasBirthday = false,
+                HasBirthday = true,
                 AvoidJuniors = false,
                 PlayerReputation = new PlayerReputation
                 {
